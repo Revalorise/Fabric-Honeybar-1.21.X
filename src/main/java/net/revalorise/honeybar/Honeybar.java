@@ -2,6 +2,7 @@ package net.revalorise.honeybar;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.revalorise.honeybar.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +12,6 @@ public class Honeybar implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		
+		ModItems.registerModItems();
 	}
 }
